@@ -1,0 +1,66 @@
+﻿/*TEAM*/
+
+Developer: Artem Zmitrovich
+Facebook: https://www.facebook.com/artsiom.smitrowitch.5
+Twitter: @ASmitrowitch
+From: Minsk, Belarus
+
+Designer & content editor: Anastasia Venglinskaya
+Facebook: https://www.facebook.com/anastasiya.venglinskaya
+Twitter: @NastyaVengl
+From: Berezino, Belarus
+
+Designer 2: Lidiya Yukhnovetskaya
+Facebook: https://www.facebook.com/lidia.yuchnovetskaya
+From: Minsk, Belarus
+
+Photographer: Natalya Mueller
+
+Artist: Anastasia Dragoon
+Facebook: https://www.facebook.com/nastya.dragun
+From: Urechye, Belarus
+
+Artist 2: Darya Chechko
+Facebook: https://www.facebook.com/chechko.dasha
+From: Mogilev, Belarus
+
+Imposer: Elena Mamonova 
+Facebook: https://facebook.com/elena.mamonova.5
+From: Vitebsk, Belarus
+                            
+
+/* THANKS */
+
+Translator-proofreader: Diana Ghazaryan
+Facebook: https://www.facebook.com/gazarian.diana
+From: Minsk, Belarus
+
+Tester: Marina Berkutova
+Facebook: https://www.facebook.com/maryna.berkytova
+From: Kamenez, Belarus
+
+Tester 2: Alexandra Pavelchuk
+Facebook: https://www.facebook.com/chanting.heart
+From: Grodno, Belarus
+
+Humans.txt compiler: Seredenko Inna
+Facebook: https://www.facebook.com/profile.php?id=100014676826442
+From: Minsk, Belarus
+
+
+/*SITE*/
+
+Language: German
+Software: Sublime Text 3, CorelDraw, Paint.net, Microsoft Office Word 2010
+Services: http://optimizilla.com/, http://css3buttongenerator.com/, http://www.colorzilla.com/gradient-editor/, https://colorscheme.ru/, http://icoconvert.com/, http://megatimer.ru/
+
+
+
+
+
+
+
+
+
+
+
