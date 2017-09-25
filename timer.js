@@ -8,7 +8,7 @@
         var l=new MegaTimer(_id, {
             "view":[1, 1, 1, 0], "type": {
                 "currentType":"1", "params": {
-                    "usertime": true, "tz": "3", "utc": 1505988000000
+                    "usertime": true, "tz": "3", "utc": 1508659240000
                 }
             }
             , "design": {
