@@ -540,7 +540,7 @@ li {
 
 .general-tab-left-column-program-container {
   height: 100%;
-  overflow: auto;
+  /*overflow: auto;*/
   text-align: justify;
   /*color: saddlebrown;*/
 }
