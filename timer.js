@@ -1,3 +1,17 @@
+var dayOfOpening = 1508659240000; // Sun Oct 22 2017 11:00:40 GMT+0300 (Беларусь (зима));
+var dayOfClosing = 1509300000000; // Sun Oct 29 2017 21:00:00 GMT+0300 (Беларусь (зима));
+var deadline;
+var today = new Date();
+today = today.getTime(); // Convert to milliseconds;
+
+if (today < dayOfOpening) {
+  document.getElementById('timer-phrase').innerHTML = 'До фестивала је остало…';
+  deadline = dayOfOpening;
+} else {
+  document.getElementById('timer-phrase').innerHTML = 'До краја фестивала је остало…';
+  deadline = dayOfClosing;
+};
+
 (function() {
     var _id="ff18bc6e0e3febd6691c97f38c17ff62";
     while(document.getElementById("timer"+_id))_id=_id+"0";
@@ -8,7 +22,7 @@
         var l=new MegaTimer(_id, {
             "view":[1, 1, 1, 0], "type": {
                 "currentType":"1", "params": {
-                    "usertime": true, "tz": "3", "utc": 1508659240000
+                    "usertime": true, "tz": "3", "utc": deadline
                 }
             }
             , "design": {
