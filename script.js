@@ -45,9 +45,10 @@ window.onclick = function(event) {
 /*Modal windows area ends*/
 
 var firstTabButtonClicked = function() {
-  document.getElementById("left-tab-button").className = "tab-button tab-button_active";
-  document.getElementById("middle-tab-button").className = "tab-button tab-button_passive";
-  document.getElementById("right-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("first-tab-button").className = "tab-button tab-button_active";
+  document.getElementById("second-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("third-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("forth-tab-button").className = "tab-button tab-button_passive";
   document.getElementById("information-column-left").innerHTML = '<h3 class="information-column-left-heading-title">Програм обухвата:</h3><ul><li>  Књиге, аудио и видео производе;</li><li>Изложбу манастирских производа;</li><li>Традиционалну белоруску колибу;</li><li>Jавно предавање из калиграфије;</li><li>Технику осликавања камених икона;</li><li>и много тога другог...</li></ul><h3 class="information-column-left-footer-text">Der Eintritt ist frei!</h3>';
   document.getElementById("information-column-left").style.overflow = "auto";
   document.getElementById("information-column-right").innerHTML = '<img class="first-tab-right-column-picture" src="images/LeftTabPic.jpg"><p class="first-tab-right-column-text">Манастир Свете Јелисавете (Минск, Белорусија) организовао је духовно-просветни међународни добротворни фестивал „Од срца срцу“ 2015. године.</p><p class="first-tab-right-column-text">Лепа традиција међусобног разумевања и јединства различитих култура и генерација чини окосницу нашег фестивала који се већ неколико година одржава у разним европским градовима. Искрено се надамо да ће Вам фестивалски програм омогућити да осетите лепоту и богатство културног православног наслеђа, да дођете у додир с традицијом белоруског народног стваралаштва и породичних празника, као и да се упознате са савременим животом Обитељи.</p><p class="first-tab-right-column-text">Дана 24. октобра биће одржан сусрет с духовником манастира Свете Јелисавете протојерејем Андрејем Лемешоноком и презентација серије књига „Шта људи питају“.</p>';
@@ -55,9 +56,10 @@ var firstTabButtonClicked = function() {
 };
 
 var secondTabButtonClicked = function() {
-  document.getElementById("left-tab-button").className = "tab-button tab-button_passive";
-  document.getElementById("middle-tab-button").className = "tab-button tab-button_active";
-  document.getElementById("right-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("first-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("second-tab-button").className = "tab-button tab-button_active";
+  document.getElementById("third-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("forth-tab-button").className = "tab-button tab-button_passive";
   document.getElementById("information-column-left").innerHTML = '<p>Издавачка кућа манастира Свете Јелисавете је једна од водећих црквених издавачких кућа у Белорусији. Њене књиге су више пута добијале награде на престижним домаћим и међународним конкурсима. Љубав читалаца и високу оцену професионалаца издавачка кућа није стекла само захваљујући књижевној продукцији високог квалитета, већ и читалачком односу пуном страхопоштовања према књизи. Запослени у издавачкој кући се према свом послу односе као према служењу Богу и људима, не заборављајући на побољшање својих професионалних умећа – они изучавају теорију издавања књига, одлазе на водеће светске сајмове књига и стварају библиотеку најбољих примерака.</p><p>Пажњи читалаца издавачка кућа нуди на стотине наслова књига међу којима нису само Свето Писмо, богослужбена литература, житија светаца, богословски и философски радови, дела светих отаца, литература из историје Цркве, већ и мноштво илустрованих издања за децу, уметничких и публицистичких дела.</p>';
   document.getElementById("information-column-left").style.overflow = "auto";
   document.getElementById("information-column-right").innerHTML = /*'<img class="second-tab-right-column-picture" src="images/MiddleTabPic.jpg">*/'<iframe class="third-tab-right-column-video" width="560" height="315" src="https://www.youtube.com/embed/2vEtU3ToTJ4" frameborder="0" allowfullscreen></iframe><br><table class="second-tab-right-column-table"><tr><td><p>Das Russische Haus<br>der Wissenshaft und Kultur</p><p><b>Friedrichstrasse 176 – 179</b>,<br>10117 Berlin</p></td><td><p>Vorhalle, 1 Stock</p><p><b>um 19 Uhr</b></p></td></tr></table>';
@@ -65,12 +67,24 @@ var secondTabButtonClicked = function() {
 };
 
 var thirdTabButtonClicked = function() {
-  document.getElementById("left-tab-button").className = "tab-button tab-button_passive";
-  document.getElementById("middle-tab-button").className = "tab-button tab-button_passive";
-  document.getElementById("right-tab-button").className = "tab-button tab-button_active";
+  document.getElementById("first-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("second-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("third-tab-button").className = "tab-button tab-button_active";
+  document.getElementById("forth-tab-button").className = "tab-button tab-button_passive";
   document.getElementById("information-column-left").innerHTML = '<p>У оквиру 62. Београдског међународног сајма књига биће одржани сусрет с протојерејем Андрејем Лемешоноком – духовником манастира Свете Јелисавете – и презентација три књиге из серије „Реч духовника“. То су књиге које је манастирска издавачка кућа приредила од разговора, проповеди и одговора оца Андреја на најчешћа питања парохијана и која је преведена на српски језик. У књигама, као и у беседама, отац Андреј говори о спасењу и лепоти, о покајању и трпљењу, о љубави и смирењу, а такође дели с читаоцима лично искуство и осећања изазвана грешкама и помоћи Божијом. Жив и јасан језик беседа пун искреног састрадавања и љубави према ближњем, забележен на папиру, по мишљењу издавача наићи ће на одазив у многим срцима.</p>';
   document.getElementById("information-column-left").style.overflow = "auto";
   document.getElementById("information-column-right").innerHTML = '<iframe class="third-tab-right-column-video" width="560" height="315" src="https://www.youtube.com/embed/qcfoIpkf6Zc" frameborder="0" allowfullscreen></iframe><br><table class="third-tab-right-column-table"><tr><td><p><span class="time-and-date">24. септембар</span></p><p><span class="time-and-date">од 16:00 до 20:00</span></p><p>у галерији 4. павиљона</p><p>Београдски сајам, павиљон 4</p><p>Булевар војводе Мишића 14</p><p>11000 Београд</p><p>Србија</p></td><td><p><span class="time-and-date">am 23. September 2017</span></p><p><span class="time-and-date">um 19 Uhr</span></p><p>Das Russische Haus</p><p>der Wissenschaft und Kultur</p><p>Friedrichstrasse 176-179,</p><p>10117 Berlin</p></td></tr></table>';
+  document.getElementById("information-column-right").style.overflow = "auto";
+};
+
+var forthTabButtonClicked = function() {
+  document.getElementById("first-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("second-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("third-tab-button").className = "tab-button tab-button_passive";
+  document.getElementById("forth-tab-button").className = "tab-button tab-button_active";
+  document.getElementById("information-column-left").innerHTML = '<p>На јавном предавању из иконописања посетиоци ће моћи да се упознају с радницима иконописне радионице манастира Свете Јелисавете и да сазнају нешто о историји и основама древне технике сликања икона помоћу уситњеног полудрагог камења и минерала и да усвоје извесне методе и технике иконописања под руководством искусног мајстора. Прича уметника о иконопису биће праћена демонстрацијом фаза стварања иконе и завршена приказивањем видеа о раду радионица манастира Свете Јелисавете.</p><p>Jавно предавање из калиграфије</p>';
+  document.getElementById("information-column-left").style.overflow = "auto";
+  document.getElementById("information-column-right").innerHTML = /*'<img class="second-tab-right-column-picture" src="images/MiddleTabPic.jpg">*/'<iframe class="third-tab-right-column-video" width="560" height="315" src="https://www.youtube.com/embed/2vEtU3ToTJ4" frameborder="0" allowfullscreen></iframe><br><table class="second-tab-right-column-table"><tr><td><p>Das Russische Haus<br>der Wissenshaft und Kultur</p><p><b>Friedrichstrasse 176 – 179</b>,<br>10117 Berlin</p></td><td><p>Vorhalle, 1 Stock</p><p><b>um 19 Uhr</b></p></td></tr></table>';
   document.getElementById("information-column-right").style.overflow = "auto";
 };
 
@@ -83,7 +97,6 @@ var thirdTabButtonClicked = function() {
 
     ga('create', 'UA-96625821-3', 'auto');
     ga('send', 'pageview');
-
 
 (function (d, w, c) {
           (w[c] = w[c] || []).push(function() {
