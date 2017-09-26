@@ -521,6 +521,10 @@ li {
   margin: 0 33px;
 }
 
+.timer-placeholder {
+  font-weight:;
+}
+
 /*@media only screen and (max-width: 890px) {
   .timer-placeholder {
     width: 450px;

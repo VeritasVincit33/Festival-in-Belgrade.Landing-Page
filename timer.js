@@ -17,10 +17,10 @@ if (today < dayOfOpening) {
     while(document.getElementById("timer"+_id))_id=_id+"0";
     document.write("<div id='timer"+_id+"' style='min-width:444px;height:86px;'></div>");
     var _t=document.createElement("script");
-    _t.src="http://megatimer.ru/timer/timer.min.js";
+    _t.src="timer-core.js";
     var _f=function(_k) {
         var l=new MegaTimer(_id, {
-            "view":[1, 1, 1, 0], "type": {
+            "view":[1, 1, 1, 1], "type": {
                 "currentType":"1", "params": {
                     "usertime": true, "tz": "3", "utc": deadline
                 }
@@ -30,10 +30,10 @@ if (today < dayOfOpening) {
                     "round":"10", "background":"gradient", "background-color":["#666666", "#acb8d1"], "effect":"flipchart", "space":"2", "separator-margin":"20", "number-font-family": {
                         "family": "Comfortaa", "link": "<link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"
                     }
-                    , "number-font-size":"60", "number-font-color":"#ffffff", "padding":"12", "separator-on":false, "separator-text":":", "text-on":false, "text-font-family": {
+                    , "number-font-size":"60", "number-font-color":"#ffffff", "padding":"12", "separator-on":false, "separator-text":":", "text-on":true/*, "text-font-family": {
                         "family": "Comfortaa", "link": "<link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"
-                    }
-                    , "text-font-size":"12", "text-font-color":"red"
+                    }*/
+                    , "text-font-size":"16", "text-font-color":"black"
                 }
             }
             , "designId":3, "theme":"white", "width":444, "height":86
