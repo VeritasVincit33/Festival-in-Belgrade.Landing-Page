@@ -5,10 +5,10 @@ var today = new Date();
 today = today.getTime(); // Convert to milliseconds;
 
 if (today < dayOfOpening) {
-  document.getElementById('timer-phrase').innerHTML = 'До фестивала је остало…';
+  document.getElementById('timer-phrase').innerHTML = 'До изложбе је остало…';
   deadline = dayOfOpening;
 } else {
-  document.getElementById('timer-phrase').innerHTML = 'До краја фестивала је остало…';
+  document.getElementById('timer-phrase').innerHTML = 'До краја изложбе је остало…';
   deadline = dayOfClosing;
 };
 
