@@ -19,9 +19,9 @@ var btnRght = document.getElementById("right-bottom-slide-show-button");
 var closerLft = document.getElementById("left-modal-window-closer");
 var closerRght = document.getElementById("right-modal-window-closer");
 
-btnLft.onclick = function() {
+/*btnLft.onclick = function() {
     modalLft.style.display = "block";
-};
+};*/
 
 btnRght.onclick = function() {
     modalRght.style.display = "block";
