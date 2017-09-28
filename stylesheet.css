@@ -634,22 +634,6 @@ li {
   border-radius: 10px;
 }
 
-.second-tab-right-column-table {
-  width: 100%;
-}
-
-.second-tab-right-column-table td {
-  margin-left: 5px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 1rem;
-}
-
-.second-tab-right-column-table td p {
-  margin: 0;
-}
-
 .time-and-date {
   font-weight: bold;
   font-size: 1.2rem;
