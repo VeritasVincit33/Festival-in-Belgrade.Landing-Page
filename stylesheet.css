@@ -635,6 +635,9 @@ li {
 }
 
 .time-and-date {
+  display: block;
+  width: 50%;
+  margin: auto;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -647,21 +650,7 @@ li {
   margin-right: auto;
 }
 
-.third-tab-right-column-table {
-  width: 100%;
-}
-
-.third-tab-right-column-table td {
-  margin-left: 5px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: top;
-  font-size: .75rem;
-}
-
-.third-tab-right-column-table td p {
-  margin: 0;
-}
+.third-tab-right-column p {}
 
 .footer {
   clear: both;
