@@ -20,7 +20,7 @@ if (today < dayOfOpening) {
     _t.src="timer-core.js";
     var _f=function(_k) {
         var l=new MegaTimer(_id, {
-            "view":[1, 1, 1, 1], "type": {
+            "view":[1, 1, 1, 0], "type": {
                 "currentType":"1", "params": {
                     "usertime": true, "tz": "3", "utc": deadline
                 }

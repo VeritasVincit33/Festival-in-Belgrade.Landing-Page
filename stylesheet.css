@@ -314,10 +314,11 @@ li {
   position: absolute;
   top: 410px;
   right: 100px;
-  width: 30%;
+  width: 40%;
   float: right;
   text-align: right;
   color: black;
+  text-shadow: 0 0 10px white;
 }
 
 .right-bottom-slide-show-text p {
