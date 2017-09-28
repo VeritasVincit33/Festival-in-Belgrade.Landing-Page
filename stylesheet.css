@@ -594,7 +594,7 @@ li {
 .general-tab-right-column-table td {
   margin-left: 5px;
   padding: 10px;
-  text-align: center;
+  /*text-align: center;*/
   vertical-align: bottom;
   font-size: 1rem;
 }
@@ -602,6 +602,11 @@ li {
 .general-tab-right-column-table td p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.general-tab-right-column-table-time {
+  position: absolute;
+  right: 80px;
 }
 
 .first-tab-right-column-picture {
