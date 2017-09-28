@@ -471,8 +471,9 @@ li {
   /*text-shadow: 3px 1px 6px white;*/
 }
 
-.information-column-left-heading-title {
-
+.information-column-left-text::first-letter { 
+    font-size: 200%;
+    color: rgb(121,0,0);
 }
 
 .information-column-left-footer-text {
