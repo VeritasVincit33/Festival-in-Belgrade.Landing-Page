@@ -84,7 +84,7 @@ var forthTabButtonClicked = function() {
   document.getElementById("forth-tab-button").className = "tab-button tab-button_active";
   document.getElementById("information-column-left").innerHTML = '<p class="information-column-left-text">На јавном предавању из иконописања посетиоци ће моћи да се упознају с радницима иконописне радионице манастира Свете Јелисавете и да сазнају нешто о историји и основама древне технике сликања икона помоћу уситњеног полудрагог камења и минерала и да усвоје извесне методе и технике иконописања под руководством искусног мајстора. Прича уметника о иконопису биће праћена демонстрацијом фаза стварања иконе и завршена приказивањем видеа о раду радионица манастира Свете Јелисавете.</p>';
   document.getElementById("information-column-left").style.overflow = "auto";
-  document.getElementById("information-column-right").innerHTML = /*'<img class="second-tab-right-column-picture" src="images/MiddleTabPic.jpg">*/'<iframe class="third-tab-right-column-video" width="560" height="315" src="https://www.youtube.com/embed/2vEtU3ToTJ4" frameborder="0" allowfullscreen></iframe><br><p><span class="tab-right-column-info">Jавно предавање из калиграфије</span></p>';
+  document.getElementById("information-column-right").innerHTML = /*'<img class="second-tab-right-column-picture" src="images/MiddleTabPic.jpg">*/'<img class="first-tab-right-column-picture" src="images/calligraphy.jpg"><br><p><span class="tab-right-column-info">Jавно предавање из калиграфије</span></p>';
   document.getElementById("information-column-right").style.overflow = "auto";
 };
 
